@@ -1,0 +1,113 @@
+/*STYLE SHEET FOR AGOS index.HTML*/
+
+/* RESET */
+{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+  position: relative;
+}
+
+/* links inside the navigation menu (except for logo/home) */
+.topnav #myLinks {
+  display: none;
+}
+
+/* Style navigation menu links */
+.topnav a {
+  color: black;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+/* hamburger menu */
+.topnav a.icon {
+    background: black;
+    color: lawngreen;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+
+/* background color on mouse-over */
+.topnav a:hover {
+  background-color: #707070;
+  color: black;
+}
+
+/* AGOS home */
+.active {
+  background-color:black;
+  color: lawngreen;
+}
+
+nav, first-child {
+    font-size: 50px;
+    font: 'karla';
+}
+
+li,
+a:link, a:visited {
+    color: lawngreen;
+    text-decoration: none;
+}
+
+body{
+    margin: 0;
+}
+
+#agoslogo{
+    height: 600px;
+    background-color: white;
+    color: black;
+    text-align: center;
+    /* outline: 1px solid lawngreen; */
+}
+
+div,
+p{
+    font-family: 'Inconsolata', monospace; 
+    text-align: center;
+}
+
+#agosvideos{
+    background-color: black;
+    font-family: 'Inconsolata', monospace; 
+    text-align: center;
+    width: auto;
+}
+
+video{
+    position: relative; 
+    height: auto;
+    width: 100%;
+}
+
+.footer{
+     position: relative; 
+    bottom:0;
+    width:100vw;
+    height: 100px
+}
+
+.footer,
+ul{
+    text-align: center;
+    background-color: black;
+    font-family: 'Inconsolata', monospace; 
+}
+
+.button{
+    position: relative;
+    background-color: black;
+    margin-bottom: 0;
+}
